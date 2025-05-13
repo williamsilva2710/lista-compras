@@ -12,10 +12,14 @@
 }
 
 .input{
-    width: 120;
-    height: 25px;
+    width: 250px;
+    height: 30px;
 }
 
+#add{
+    width: 40px;
+    height: 30px;
+}
 
 #sair{
     display: block;
