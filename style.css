@@ -44,6 +44,7 @@
     color: white;
     font-weight: bold;
     border-radius: 10px;
+    margin: auto;
 }
 
 #sair:hover{
