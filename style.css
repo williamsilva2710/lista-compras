@@ -11,6 +11,11 @@
 
 }
 
+.input{
+    width: 120;
+    height: 25px;
+}
+
 
 #sair{
     display: block;
