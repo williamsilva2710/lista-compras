@@ -1,6 +1,11 @@
+.container{
+
+}
+
+
 #sair{
     display: block;
-    width: 100px;
+    width: 100vw;
     height: 50px;
     margin-top: 20px;
     border: none;
