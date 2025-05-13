@@ -18,7 +18,12 @@
 
 #add{
     width: 100px;
-    height: 30px;
+    height: 35px;
+    border: none;
+    background-color: rgb(108, 108, 108);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
 }
 
 #sair{
@@ -34,6 +39,11 @@
 }
 
 #sair:hover{
+    border: 1px solid black;
+    background-color: rgb(88, 88, 88);
+}
+
+#add:hover{
     border: 1px solid black;
     background-color: rgb(88, 88, 88);
 }
