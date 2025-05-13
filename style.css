@@ -24,7 +24,7 @@
     background-color: rgb(108, 108, 108);
     color: white;
     font-weight: bold;
-    border-radius: 10px;
+    border-radius: 0 10px 10px 0;
 }
 
 #sair{
@@ -36,7 +36,7 @@
     background-color: rgb(108, 108, 108);
     color: white;
     font-weight: bold;
-    border-radius: 0 10px 10px 0;
+    border-radius: 10px;
 }
 
 #sair:hover{
