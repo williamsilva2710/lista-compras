@@ -1,4 +1,6 @@
 #sair{
     display: block;
-    margin: 20px;
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
 }
