@@ -35,7 +35,7 @@
 
 #sair{
     display: block;
-    width: 100%;
+    width: 250px;
     height: 40px;
     margin-top: 20px;
     margin-bottom: 5px;
@@ -43,6 +43,7 @@
     background-color: rgb(108, 108, 108);
     color: white;
     font-weight: bold;
+    border-radius: 10px;
 }
 
 #sair:hover{
