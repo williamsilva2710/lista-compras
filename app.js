@@ -23,7 +23,7 @@ async function carregarLista() {
   lista.innerHTML = ''
   data.forEach((item) => {
     const li = document.createElement('li')
-    li.innerHTML = `${item.item} <button onclick="removerItem('${item.id}')">Remover</button>`
+    li.innerHTML = `${item.item} <button onclick="removerItem('${item.id}')">X</button>`
     lista.appendChild(li)
   })
 }
@@ -62,7 +62,6 @@ window.logout = async function () {
 getUser().then(carregarLista)
 
 //adiciona um item quando a tecla enter é pressionada
-
 document.addEventListener('keydown', function(){
   if(event.key === 'Enter'){
       adicionarItem()
