@@ -94,3 +94,24 @@
     margin-bottom: 10px;
 }
 
+#entrar, #cadastrar{
+    width: 145px;
+    height: 40px;
+    background-color: rgb(108, 108, 108);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+#entrar{
+    border-radius: 10px 0 0 10px;
+}
+
+#cadastrar{
+    border-radius: 0 10px 10px 0;
+}
+
+#entrar, #cadastrar:hover{
+    border: 1px solid black;
+    background-color: rgb(88, 88, 88);
+}
