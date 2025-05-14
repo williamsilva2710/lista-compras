@@ -62,3 +62,24 @@ li{
     border: none;
     background-color: #fff;
 }
+
+#email{
+    display: block;
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+    left: 0;
+    margin-left: 1px;
+}
+
+#senha{
+    display: block;
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+    left: 0;
+    margin-left: 1px;
+}
+
