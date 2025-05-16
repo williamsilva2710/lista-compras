@@ -23,7 +23,7 @@ async function carregarLista() {
   lista.innerHTML = ''
   data.forEach((item) => {
     const li = document.createElement('li')
-    li.innerHTML = `${item.item} <button onclick="removerItem('${item.id}')" style="border: none; background-color: #fff; cursor:pointer;"><i class="fa-solid fa-trash"></i></button>`
+    li.innerHTML = `${item.item} <button onclick="removerItem('${item.id}')" style="border: none; background-color: #fff; cursor:pointer; padding-left: 0; margin-left: 0;"><i class="fa-solid fa-trash"></i></button>`
     lista.appendChild(li)
   })
 }
