@@ -112,7 +112,7 @@
     border-radius: 0 10px 10px 0;
 }
 
-#entrar, #cadastrar:hover{
+#entrar:hover, #cadastrar:hover{
     border: 1px solid black;
     background-color: rgb(88, 88, 88);
 }
