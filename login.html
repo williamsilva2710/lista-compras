@@ -10,15 +10,15 @@
 <body>
     <div class="login">
         <h2>Login</h2>
-        <div class="email">
-            <input type="email" id="email" placeholder="Email">
+
+        <input type="email" id="email" placeholder="Email">
+        
+        <input type="password" id="senha" placeholder="Senha">
+        
+        <div class="botoes">
+            <button onclick="login()" id="entrar">Entrar</button>
+            <button onclick="cadastro()" id="cadastrar">Cadastrar</button>
         </div>
-        <div class="senha">
-            
-            <input type="password" id="senha" placeholder="Senha">
-        </div>
-        <button onclick="login()" id="entrar">Entrar</button>
-        <button onclick="cadastro()" id="cadastrar">Cadastrar</button>
     </div>
 
     <script type="module" src="auth.js"></script>
