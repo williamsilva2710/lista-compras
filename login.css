@@ -3,8 +3,8 @@
 
 /*----------VARIÁVEIS GLOBAIS----------*/
 :root{
-    --cor-primaria: #;
-    --cor-primaria-escura: #;
+    --cor-primaria: #6b73ff;
+    --cor-primaria-escura: #4e56d6;
     --cor-bg: #f5f7fa;
     --cor-branco: #fff;
     --cor-borda: #ddd;
@@ -16,3 +16,89 @@
     --raio: 0.8rem;
     --transition: 0.3s ease;
 }
+
+/*----------RESET CSS----------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--fonte);
+    background: linear-gradient(135deg, var(--cor-primaria, #ff00d4));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.login{
+    background: var(--cor-branco);
+    padding: clamp(2rem, 5vw, 3rem);
+    border-radius: var(--raio);
+    box-shadow: 0 8px 24px var(--cor-sombra);
+    width: 100%;
+    min-width: 400px;
+    text-align: center;
+}
+
+.titulo{
+    font-size: clamp(1.5rem, 2vw + 1rem, 2rem);
+    color: var(--cor-texto);
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+input{
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0;
+    border: 1px solid var(--cor-borda);
+    border-radius: var(--raio);
+    font-size: 1rem;
+    transition: var(--transition);
+}
+
+input:focus{
+    border-color: var(--cor-primaria);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(107, 115, 255, 0.25);
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+button{
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: var(--raio);
+    background-color: var(--cor-primaria);
+    color: var(--cor-branco);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+button:hover{
+    background-color: var(--cor-primaria-escura);
+}
+
+/*----------RESPONSIVIDADE----------*/
+
+@media (max-width: 360px){
+    .container{
+        padding: 1.5rem;
+    }
+
+    input, button{
+        font-size: 0.95rem;
+    }
+}
+
