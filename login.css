@@ -26,7 +26,7 @@
 
 body{
     font-family: var(--fonte);
-    background: linear-gradient(135deg, var(--cor-primaria, --cor-primaria-escuraa));
+    background: linear-gradient(135deg, var(#800E13, --cor-primaria-escuraa));
     display: flex;
     justify-content: center;
     align-items: center;
