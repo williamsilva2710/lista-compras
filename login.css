@@ -24,6 +24,15 @@
     box-sizing: border-box;
 }
 
+/*---------logo----------*/
+
+#logo{
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: var(--raio);
+}
+
 body{
     font-family: var(--fonte);
     background: linear-gradient(135deg, var(--cor-primaria, --cor-primaria-escura));
