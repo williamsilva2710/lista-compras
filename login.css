@@ -32,6 +32,7 @@
     margin-bottom: 20px;
     border-radius: var(--raio);
     text-align: center;
+    justify-content: center;
 }
 
 body{
