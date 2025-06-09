@@ -6,8 +6,6 @@ const urlsToCache = [
   '/index.html',
   '/style.css',
   'app.js',
-  'auth.js',
-  'supabaseClient.js',
   '/manifest.json',
   '/icons/icon-72x72.png',
   '/icons/icon-96x96.png',
